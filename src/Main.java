@@ -6,3 +6,9 @@ public class GuessTheNumber {
         Random random = new Random();
         int numberToGuess = random.nextInt(100) + 1;
         int numberOfTries = 0;
+        int guess;
+        boolean win = false;
+
+        System.out.println("Welcome to the Guess The Number game!");
+        System.out.println("I have selected a number between 1 and 100. Can you guess it?");
+
