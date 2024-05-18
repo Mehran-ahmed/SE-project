@@ -11,4 +11,8 @@ public class GuessTheNumber {
 
         System.out.println("Welcome to the Guess The Number game!");
         System.out.println("I have selected a number between 1 and 100. Can you guess it?");
+         while (!win) {
+            System.out.print("Enter your guess: ");
+            guess = scanner.nextInt();
+            numberOfTries++;
 
