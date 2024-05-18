@@ -15,4 +15,13 @@ public class GuessTheNumber {
             System.out.print("Enter your guess: ");
             guess = scanner.nextInt();
             numberOfTries++;
+             
+            if (guess < 1 || guess > 100) {
+                System.out.println("Please enter a number between 1 and 100.");
+            } else if (guess < numberToGuess) {
+                System.out.println("Too low. Try again.");
+            } else if (guess > numberToGuess) {
+                System.out.println("Too high. Try again.");
+            } else {
+                win = true;
 
