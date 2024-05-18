@@ -24,4 +24,10 @@ public class GuessTheNumber {
                 System.out.println("Too high. Try again.");
             } else {
                 win = true;
+            System.out.println("Congratulations! You've guessed the number.");
+                System.out.println("It took you " + numberOfTries + " tries.");
+            }
+        }
 
+        scanner.close();
+    }
