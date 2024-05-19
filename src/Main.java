@@ -18,7 +18,7 @@ public class Main {
         System.out.println("I have selected a number between " + MIN + " and " + MAX + ". Can you guess it?");
 
         while (!win) {
-            System.out.print("Enter your guess: ");
+            System.out.print("Enter your Guessed Number: ");
             try {
                 guess = scanner.nextInt();
                 numberOfTries++;
