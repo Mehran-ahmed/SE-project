@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessTheNumber {
+public class Main {
     public static void main(String[] args) {
         final int MIN = 1;
         final int MAX = 100;
